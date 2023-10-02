@@ -264,7 +264,7 @@ item1.TEL;waid=${i}:${i}\n
 item1.X-ABLabel:Ponsel\n
 item2.EMAIL;type=INTERNET:creator@arxzy.my.id\n
 item2.X-ABLabel:Email\n
-item3.URL:https://profile.arxzydev.xyz\n
+item3.URL:https://web.yogzzdevx.com\n
 item3.X-ABLabel:Profile Website\n
 item4.ADR:;;Indonesia;;;;\n
 item4.X-ABLabel:Region\n
@@ -345,7 +345,7 @@ END:VCARD`
                 var ini_name = get_result.name
                 var description = get_result.description
                 ini_txt = `${ini_name} - ${description}\n\n`
-                ini_txt += "*Terima Kasih*\n*Powered By ArxzyDev & LoL Human*"
+                ini_txt += "*Terima Kasih*\n*Powered By YogzzDevX*"
                 await arxzy.sendMessage(m.chat, {
                     image: {
                         url: get_result.image
@@ -1295,8 +1295,8 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                         externalAdReply: {
                             showAdAttribution: true,
                             title: 'BUY PREMIUM',
-                            body: `15k / MONTH`,
-                            thumbnailUrl: 'https://telegra.ph/file/c0cad5270a204eb878711.jpg',
+                            body: `10k / MONTH`,
+                            thumbnailUrl: 'https://telegra.ph/file/5a83a5e04bbbcb538257a.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1382,27 +1382,27 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     quoted: m
                 })
                 break
-            case 'sc':
-            case 'script':
-            case 'scriptbot':
+         /*  case 'sc':
+           case 'script':
+           case 'scriptbot':
                 uy = `https://youtube.com/playlist?list=PLRmLRCoejWJsauHXGmkKERWnptlwtOy2q`
                 arxzy.sendMessage(m.chat, {
-                    text: uy,
+                   text: uy,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
                             title: 'Script Free',
                             body: `SCRIPT BOT ${namabot} Ada Di Youtube @arxzydev`,
-                            thumbnailUrl: 'https://telegra.ph/file/0720685135c68851ca869.jpg',
+                          thumbnailUrl: 'https://telegra.ph/file/0720685135c68851ca869.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
-                        }
+                      }
                     }
                 }, {
                     quoted: m
                 })
-                break
+                break */
             case 'donate':
             case 'donasi':
                 let katanya = `Hallo Kakak ${pushname}\n\nJika Ingin Berdonasi Menggunakan QRIS\n\n\n*NOTES:*\n 1.Bawa Bukti Telah Berdonasi Kepada Owner!!!\nSeberapa Pun Kakak Berdonasi Bagi Kami Sangat Berharga`
@@ -1425,7 +1425,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'tqto':
-                newReply(`*Terima Kasih Kepada*\n\n>| 1. ArxzyDev ( Author )\n>| 2. LoL Human ( Rest APIs )\n>| 3. ZTRAM ( Team )\n>| 4. Penyedia Module\n>| 5. Subscriber & Creator Bot WhatsApp\n\n\n\n\n\n Powered By ArxzyDev`)
+                newReply(`*Terima Kasih Kepada*\n\n>| 1. YogzzDevX ( Owner )\n>| 2. ArxzyDev ( Penyedia Sc )\n>| 3. LoL Human ( Rest APIs )\n>| 4. ZTRAM ( Team )\n>| 5. Penyedia Module\n>| 6. All Creator Bot WhatsApp\n\n\n\n\n\n Powered By YogzzDevX`)
                 break
 
 
@@ -1710,7 +1710,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'fliptext': {
-                if (args.length < 1) return newReply(`Example:\n${prefix}fliptext ArxzyDev`)
+                if (args.length < 1) return newReply(`Example:\n${prefix}fliptext YogzzDevX`)
                 quere = args.join(" ")
                 flipe = quere.split('').reverse().join('')
                 newReply(`\`\`\`「 FLIP TEXT 」\`\`\`\n*•> Normal :*\n${quere}\n*•> Flip :*\n${flipe}`)
@@ -2365,7 +2365,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                         url: n.result.link.link
                     },
                     mimetype: 'video/mp4',
-                    fileName: "Downloader Ytmp4 By ArxzyDev.mp4",
+                    fileName: "Downloader Ytmp4 By YogzzDevX.mp4",
                     caption: ytmp4p,
                     contextInfo: {
                         externalAdReply: {
@@ -2393,7 +2393,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                         url: n.result.link.link
                     },
                     mimetype: 'audio/mp3',
-                    fileName: "Downloader Ytmp3 By ArxzyDev.mp3",
+                    fileName: "Downloader Ytmp3 By YogzzDevX.mp3",
                     caption: ytmp4p,
                     contextInfo: {
                         externalAdReply: {
@@ -2579,10 +2579,10 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             case 'help':
                 let mono = '```'
                 let menunya = `${mono}Hello ${pushname}
-▷ Date: ${hariini}
-▷ Time: ${wib} WIB
+*▷ Date:* ${hariini}
+*▷ Time:* ${wib} WIB
 ${readmore}
-▷ ᴏᴡɴᴇʀ ᴍᴇɴᴜ
+*▷ Owner Menu*
 ${prefix}delsesi
 ${prefix}setimgqouted
 ${prefix}setimgmenu
@@ -2602,13 +2602,13 @@ ${prefix}unblock
 ${prefix}backup
 ${prefix}getcase
 
-▷ ᴘʀᴇᴍɪᴜᴍ ᴍᴇɴᴜ
+*▷ Premium Menu*
 ${prefix}reminiv2
 ${prefix}recolor
 ${prefix}openai
 ${prefix}telestick
 
-▷ ɢʀᴏᴜᴘ ᴍᴇɴᴜ
+*▷ Group Menu*
 ${prefix}closetime
 ${prefix}opentime
 ${prefix}kick
@@ -2626,21 +2626,20 @@ ${prefix}linkgc
 ${prefix}revoke
 ${prefix}listonline
 
-▷ ᴍᴀɪɴ ᴍᴇɴᴜ
+*▷ Main Menu*
 ${prefix}botstatus 
 ${prefix}buypremium
 ${prefix}sewabot
 ${prefix}speedtest
 ${prefix}runtime
-${prefix}script
 ${prefix}donate
 ${prefix}owner
 ${prefix}tqto
 
-▷ ɪɴғᴏʀᴍᴀᴛɪᴏᴍ
+*▷ Info Menu*
 ${prefix}infogempa
 
-▷ ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ
+*▷ Convert Menu*
 ${prefix}sticker
 ${prefix}smeme
 ${prefix}swm
@@ -2658,7 +2657,7 @@ ${prefix}fliptext
 ${prefix}emojimix1
 ${prefix}emojimix2
 
-▷ ᴅᴀᴛᴀʙᴀsᴇ ᴍᴇɴᴜ
+*▷ Database Menu*
 ${prefix}addvideo
 ${prefix}addimage
 ${prefix}addsticker
@@ -2672,7 +2671,7 @@ ${prefix}listimage
 ${prefix}liststicker
 ${prefix}listvn
 
-▷ ɢᴀᴍᴇ ᴍᴇɴᴜ
+*▷ Game Menu*
 ${prefix}tictactoe
 ${prefix}suitpvp
 ${prefix}kuismath
@@ -2690,7 +2689,7 @@ ${prefix}tebak siapakahaku
 ${prefix}tebak susunkata
 ${prefix}tebak tekateki
 
-▷ ᴅᴏᴡɴ ᴍᴇɴᴜ
+*▷ Download Menu*
 ${prefix}ttdl
 ${prefix}ttaudio
 ${prefix}cocofun
@@ -2703,7 +2702,7 @@ ${prefix}igdl
 ${prefix}igdlh
 ${prefix}pindl
 
-▷ ᴏᴛʜᴇʀ ᴍᴇɴᴜ
+*▷ Other Menu*
 ${prefix}qc
 ${prefix}ttp
 ${prefix}attp
